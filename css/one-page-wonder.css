@@ -83,16 +83,9 @@ header.masthead .masthead-content .masthead-subheading {
 }
 
 
-@media (min-width: 992px) {
-  header.masthead {
-    padding-top: calc(10rem + 55px);
-    padding-bottom: 10rem;
-  }
-  header.masthead .masthead-content .masthead-heading {
-    font-size: 6rem;
-  }
-  header.masthead .masthead-content .masthead-subheading {
-    font-size: 4rem;
+@media only screen and (max-width: 600px) {
+  .divider {
+    background-attachment: scroll !important;
   }
 }
 
@@ -103,9 +96,7 @@ header.masthead .masthead-content .masthead-subheading {
 .divider {
   position: relative;
   overflow: hidden;
-  padding-top: calc(7rem + 72px);
-  padding-bottom: 7rem;
-  background-image: url("../img/05.jpg") !important;
+  background-image: url("../img/09.jpg") !important;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
