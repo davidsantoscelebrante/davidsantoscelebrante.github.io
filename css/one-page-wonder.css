@@ -87,6 +87,10 @@ header.masthead .masthead-content .masthead-subheading {
   .divider {
     background-attachment: scroll !important;
   }
+
+  header.masthead {
+    background-attachment: scroll !important;    
+  }
 }
 
 .bg-primary {
