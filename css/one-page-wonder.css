@@ -63,6 +63,9 @@ header.masthead {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -103,10 +106,12 @@ header.masthead .masthead-content .masthead-subheading {
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
   background-image: url("../img/05.jpg") !important;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
