@@ -69,6 +69,25 @@ header.masthead {
   background-size: cover;
 }
 
+header.masthead-2 {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  padding-bottom: 7rem;
+  background: url("../img/10.jpeg") !important;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.masthead-subheading-2 {
+  font-weight: 100 !important;
+}
+
 header.masthead .masthead-content {
   z-index: 1;
   position: relative;
@@ -113,3 +132,5 @@ header.masthead .masthead-content .masthead-subheading {
 .testimonial-card {
   border: none !important;
 }
+
+
