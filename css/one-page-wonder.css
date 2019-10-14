@@ -110,6 +110,10 @@ header.masthead .masthead-content .masthead-subheading {
   header.masthead {
     background-attachment: scroll !important;    
   }
+
+  footer p {
+    font-size: 13px !important;
+  }
 }
 
 .bg-primary {
@@ -133,4 +137,15 @@ header.masthead .masthead-content .masthead-subheading {
   border: none !important;
 }
 
+footer i {
+  transition: 0.2s;
+}
 
+footer i:hover {
+  transform: scale(1.5)
+}
+
+footer a {
+  text-decoration: none !important;
+  color: #fff !important;
+}
